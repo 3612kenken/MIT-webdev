@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+ 
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: normal;
+}
+.container-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gradient-overlay{
+  width:1440px; 
+  object-fit: contain;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url("./assets/images/hero_bg.png");
+  min-height:650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gradient-overlay h1{
+  text-align: center;
+
+  font-weight:bold;
+  font-size: 4em;
+  padding-top: 15%;
+  color: #965323;
+}
+
+.gradient-overlay p{
+  color: #C6BB83;
+}
+.button {
+
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.btn{
+  font-family: 'Josefin Sans';
+  background-color: #965323;
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 20px;
+}
+.button-round {
+  
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  
+}
+.btn-round {
+  background-color: rgb(221, 218, 218); 
+  color: #965323;
+  border-radius: 20px;
+}
+
+.btn-round:hover {
+  background-color: #ffffff;
+  color: #965323;
+  border: 1px solid #965323;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  font-size: 25px;
+  text-align: center;
+}
+.flex-article {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 236, 236);
+}
+
+.flex-article div p{
+  text-align: left;
+}
+
+.flex-article-center{
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.flex-article > div {
+  text-align: center;
+  width: 50%;
+
+}
+h2, p{
+  font-family: 'Josefin Sans';
+}
+.flex-article div h2{
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.gray-color{
+  background-color: rgb(238, 236, 236);
+}
+  .flex-contents {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-contents div p{
+    text-align: left;
+  }
+
+  .flex-contents-center{
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-contents-center-gray{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: rgb(238, 236, 236);
+  }
+  .flex-contents-center h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+  }
+  .flex-contents div h2{
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  .flex-contents > div {
+    text-align: center;
+    width: 50%;
+    margin-top: 100px;
+  }
+  .flex-contents-left-margin{
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+  .flex-contents-right-margin{
+    margin-right: 100px;
+    margin-left: 20px;
+  }
+  .rounded-img{
+    border-radius: 20px;
+  }
+ 
+  .middle-text{
+  padding:30px;
+  line-height:20px;
+  }
+  
+
+  
+  
+  .image-right{
+      background-image:url("https://cdn.pixabay.com/photo/2023/02/07/17/49/supercar-7774683_640.jpg");
+      background-repeat: no-repeat;
+      min-height:200px;
+      min-height:200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
+  
+  .image-left{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNu30BamO_jUYLHxyZRykyk7LwDdZ86DlKZg&s");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  }
