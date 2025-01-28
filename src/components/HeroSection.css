@@ -1,4 +1,8 @@
-
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+ 
+}
 .container-hero {
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +10,7 @@
     align-items: center;
   }
   .gradient-overlay{
-    width:1440px; 
+    width:100%; 
     object-fit: contain;
     background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url("./assets/images/hero_bg.png");
     min-height:650px;
@@ -15,6 +19,7 @@
     background-size: cover;
   }
   .gradient-overlay h1{
+    font-family: 'Josefin Sans';
     text-align: center;
   
     font-weight:bold;

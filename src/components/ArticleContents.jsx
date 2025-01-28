@@ -24,7 +24,7 @@ function ArticleContents(){
                 <p>In Philippine mythology, Mariang Makiling, affectionately known as Maria Makiling, holds a place of reverence and significance. Her legend is intrinsically tied to the picturesque Mount Makiling in Laguna, Philippines, and she is revered as one of the most widely recognized diwatas (anitos) in Philippine folklore. Meet our featured storytellers and read their inspiring contributions. </p>
             </div>
         </div>
-        <div class='flex-article'>
+        <div class='flex-article flex-article-bottom'>
             <div class="flex-article-left-margin">
                 <h2>Aswang: The Fearsome Shape-shifter</h2>
                 <p>In myth and legend, aswang are beings that exhibit similar grotesque traits to werewolves and vampires, featuring varied appearances with no consistent image. Often described based on word of mouth, aswang is a broad term encompassing malevolent spirits typically associated with nocturnal activities.</p>
@@ -36,6 +36,7 @@ function ArticleContents(){
             </div>
 
         </div>
+   
         </>
 
     );

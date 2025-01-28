@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+  
+  }
+  @font-face {
+    font-family: 'OpenSans';
+    src: url('./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  }
+
+.flex-featured {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flex-featured-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px 50px 20px 50px;
+}
+.flex-featured-header h2{
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.flex-featured-form {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.flex-featured-form > div {
+    text-align: center;
+    width: 35%;
+    margin: 20px;
+}
+.flex-featured-form p{
+    text-align: left;
+    font-size: 16px;
+}
+.flex-featured-form .email{
+    
+    font-family: 'Josefin Sans';
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #f0eded;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    width: 100%;
+
+    
+}
+
+.flex-featured-form .btn-minimal{
+
+   background-color: #ececec;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.form-caption p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.flex-featured > div {
+    text-align: center;
+    width: 23%;
+}
+.flex-featured div h3{
+    font-family: 'Josefin Sans';
+    text-align: center;
+}
+.flex-featured div p{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    text-align: center;
+}
+
+.flex-featured-bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    margin: 50px;
+}
+.flex-featured-bottom  > div {
+    text-align: left;
+    width: 50%;
+}
+
+.flex-featured-bottom h2{
+    font-family: 'OpenSans';
+    text-align: left;
+   font-size: 23px;
+   margin: 0;
+   display: inline;
+
+}
+
+.flex-featured-header-bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px 50px 20px 50px;
+   
+}
+.flex-featured-header-bottom h2{
+     width: 70%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.flex-featured-bottom p{
+    font-family: 'OpenSans';
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+    display: inline;
+
+}
+
+.flex-featured-left-margin{
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+  .flex-featured-right-margin{
+    margin-right: 100px;
+    margin-left: 20px;
+  }

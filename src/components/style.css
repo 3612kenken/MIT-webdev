@@ -6,19 +6,12 @@
 @font-face {
   font-family: 'OpenSans';
   src: url('./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
-  font-weight: normal;
 }
-@font-face {
-  font-family: 'OpenSans';
-  src: url('./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
-  font-weight: normal;
-}
-
-
 .button {
   margin: 0px 50px 50px 0px;
   text-decoration: none;
   font-size: 20px;
+  padding: 10px;
 }
 .btn-main{
   font-family: 'Josefin Sans';
@@ -69,7 +62,7 @@ p{
   font-size: 25px;
   text-align: center;
 }
-h2, p{
+h2, h3, h4, p{
   font-family: 'Josefin Sans';
 }
 .gray-color{
@@ -82,19 +75,3 @@ h2, p{
   padding:30px;
   line-height:20px;
 }
-  .image-right{
-      background-image:url("https://cdn.pixabay.com/photo/2023/02/07/17/49/supercar-7774683_640.jpg");
-      background-repeat: no-repeat;
-      min-height:200px;
-      min-height:200px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-
-  }
-  
-  .image-left{
-  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNu30BamO_jUYLHxyZRykyk7LwDdZ86DlKZg&s");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  }
