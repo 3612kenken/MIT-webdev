@@ -1,4 +1,5 @@
 import './style.css'
+import './HeaderContent.css'
 function HeaderContent(){
     return (
         <>
@@ -15,18 +16,13 @@ function HeaderContent(){
             </div>
 
         </div>
-        
-     
             <div class="flex-contents-center">
                 <h2>Categories</h2>
             </div>
-            
-     
           <div class='flex-contents'>
-           
-            <button class="btn button-round btn-round">Explore Now</button>
-            <button class="btn button-round btn-round">Explore Now</button>
-            <button class="btn button-round btn-round">Explore Now</button>
+            <button class="button button-round btn-round-light">Myths</button>
+            <button class="button button-round btn-round">Legends</button>
+            <button class="button button-round btn-round">Folk Tales</button>
         </div>
         </>
 

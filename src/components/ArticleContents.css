@@ -1,0 +1,38 @@
+
+.flex-article {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 236, 236);
+}
+.flex-article div p{
+    text-align: left;
+}
+
+.flex-article-left-margin{
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+  .flex-article-right-margin{
+    margin-right: 100px;
+    margin-left: 20px;
+  }
+.flex-article-center{
+    justify-content: center;
+    align-items: center;
+}
+.flex-article-center h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+  }
+.flex-article > div {
+    text-align: center;
+    width: 50%;
+}
+.flex-article div h2{
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
