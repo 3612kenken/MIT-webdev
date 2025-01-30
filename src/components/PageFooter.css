@@ -24,12 +24,13 @@
     padding-bottom: 20px;
     text-align: center !important;
     align-content: center;
+    justify-content: center;
 }
 .flex-credits p{
     font-family: 'OpenSans';
     text-align: center !important;
     font-size: 16px;
-    margin-left: 38%;
+  
 }
 
 .flex-footer .left {
