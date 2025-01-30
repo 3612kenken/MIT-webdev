@@ -55,3 +55,38 @@
     font-size: 30px;
     margin-bottom: 50px;
 }
+
+
+@media (max-width: 480px) {
+
+  .flex-article {
+      flex-direction: column;
+    }
+    .flex-article-center h2{
+      text-align: center;
+      font-size: 25px;
+      margin: 20px;
+    }
+    .flex-article-left-margin{
+      text-align: center;
+      margin:10px;
+    }
+    .flex-article-right-margin{
+      text-align: center;
+      margin:10px;
+    }
+    .flex-article div h2{
+      text-align: center;
+        font-size: 25px;
+        margin:10px;
+    }
+    .flex-article div p{
+      text-align: center;
+    }
+    .flex-article > div {
+      width: 80%;
+    }
+    .flex-article-bottom{
+      padding-bottom: 20px;
+    }
+}

@@ -31,3 +31,18 @@
   .gradient-overlay p{
     color: #C6BB83;
   }
+
+  @media (max-width: 480px) {
+    .container-hero {
+      flex-direction: column;
+    }
+
+    .gradient-overlay{
+ 
+      min-height:10px;
+    }
+    .gradient-overlay h1{
+     
+      font-size: 25px;
+    }
+  }

@@ -15,12 +15,7 @@
     background-color: rgb(214, 216, 219);
     padding-top: 100px;
 }
-.flex-footer .left {
-    font-family: 'OpenSans';
-    text-align: left;
-    width: 30%;
-    margin:50px;
-}
+
 .flex-credits{
     display: flex;
     flex-wrap: nowrap;
@@ -37,13 +32,23 @@
     margin-left: 38%;
 }
 
+.flex-footer .left {
+    font-family: 'OpenSans';
+    background-color: rgb(214, 216, 219);
+    text-align: left;
+    width: 30%;
+    margin:50px;
+}
+
 .flex-footer .mid {
     font-family: 'OpenSans';
+    background-color: rgb(214, 216, 219);
     text-align: center;
     width: 15%;
 }
 .flex-footer .right {
     font-family: 'OpenSans';
+    background-color: rgb(214, 216, 219);
     text-align: center;
     width: 28%;
   
@@ -89,3 +94,77 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .flex-footer {
+      flex-direction: column;
+      padding-top: 10px;
+      margin: 20px;
+    }
+    .flex-footer .right {
+        font-family: 'OpenSans';
+        text-align: center;
+    }
+    .flex-credits{
+        flex-direction: column;
+    }
+
+    .flex-footer .left {
+
+        text-align: center;
+        width: 100%;
+        margin:0px;
+    }
+    
+    .flex-footer .mid {
+
+        text-align: center;
+        width: 100%;
+    }
+    .flex-footer .right {
+        text-align: center;
+        width: 100%;
+      
+    }
+    .flex-footer .left h2{
+        font-size: 20px;
+       
+    }
+    
+    .flex-footer .mid h2{
+
+        font-size: 20px;
+    }
+    .flex-footer .right h2{
+        font-size: 20px;
+      
+    }
+
+    .flex-footer .left p{
+        font-size: 16px;
+       
+    }
+    
+    .flex-footer .mid p{
+
+        font-size: 16px;
+    }
+    .flex-footer .right p{
+        font-size: 16px;
+      
+    }
+
+    .email{
+      
+        width: 80%;
+    }
+    .flex-credits{
+
+        padding:10px;
+    }
+    .flex-credits p{
+      
+        margin-left: 0%;
+    }
+    
+  }

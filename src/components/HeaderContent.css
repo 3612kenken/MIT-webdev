@@ -9,6 +9,8 @@
     text-align: left;
   }
   .flex-contents-center{
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
   }
@@ -42,4 +44,36 @@
   .flex-contents-right-margin{
     margin-right: 100px;
     margin-left: 20px;
+  }
+
+
+  @media (max-width: 480px) {
+    .flex-contents {
+      flex-direction: column;
+    }
+    .flex-contents-right-margin{
+      margin:0%;
+
+    }
+    .flex-contents-left-margin{
+      margin:0%;
+
+    }
+    .flex-contents > div {
+      text-align: center;
+      width: 80%;
+      margin-top: 0px;
+    }
+    .flex-contents div p{
+      text-align: center;
+    }
+    .flex-contents div h2{
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    .flex-contents-center h2{
+      font-size: 25px;
+      margin: 10px;
+    }
   }
